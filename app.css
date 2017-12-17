@@ -35,7 +35,8 @@ body {
   cursor: pointer;
 }
 .option-title {
-  padding-top: 4px;
+  padding-top: 3px;
+  font-size: 18px;
 }
 .option-icon_grey {
   margin-left: 1rem;
