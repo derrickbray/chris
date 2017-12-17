@@ -1,33 +1,50 @@
 body {
   margin: 0;
-  color: white;
+  background: #bbbfc2;
+  font-family: sans-serif;
 }
-.dave {
-  background: green;
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  background: white;
+  box-shadow: 0 0.2rem 0.2rem 0.4rem rgba(0,0,0,0.4);
+}
+.hero {
+  background: url(mountain.jpg) no-repeat;
+  background-size: cover;
   height: 40vh;
 }
 .main {
   display: flex;
-  height: 60vh;
+  margin-top: 60px;
+  height: 51vh;
 }
 .left {
-  width: 20%;
-  /*padding: 1rem;*/
-  background: blue;
+  min-width: 20%;
 }
 .options {
   padding: 1rem;
+  background: linear-gradient(to right, #ebeced , #d1d5d6);
+  text-align: center;
+  border-bottom: solid 1px white;
+  color: #9ba0a4;
   cursor: pointer;
 }
 .right {
   display: none;
   flex-grow: 1;
-  padding: 1rem;
-  background: purple;
+  padding: 0 70px;
+  text-align: center;
+}
+.right-title {
+  color: #36abe1;
+  line-height: 20px;
 }
 #option1{
   display: block;
 }
-#option2{}
-#option3{}
-#option4{}
+#colorMe1 {
+  background: white;
+  color: #36abe1;
+}
