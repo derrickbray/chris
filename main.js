@@ -1,6 +1,7 @@
 function show(id, color, num) {
   var content = document.getElementsByClassName("right");
   var option = document.getElementsByClassName('options');
+
   var o;
   for (o = 0; o < option.length; o++) {
     option[o].style.background = "linear-gradient(to right, #ebeced , #d1d5d6)";
