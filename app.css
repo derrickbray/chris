@@ -12,11 +12,11 @@ body {
 }
 .left {
   width: 20%;
-  padding: 1rem;
+  /*padding: 1rem;*/
   background: blue;
 }
 .options {
-  margin: 1rem 0;
+  padding: 1rem;
   cursor: pointer;
 }
 .right {
